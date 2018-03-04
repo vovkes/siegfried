@@ -1,0 +1,13 @@
+[Unit]
+Description=WBC Full Node
+
+[Service]
+Type=simple
+User=wbc
+Group=wbc
+WorkingDirectory=/var/wbc
+ExecStart=/opt/wbcoin/bin/wbc --appdata=/var/wbc
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target

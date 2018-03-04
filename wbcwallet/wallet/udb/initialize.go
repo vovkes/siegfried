@@ -1,0 +1,120 @@
+// The WBC developers. Copyright (c) 2017 
+//
+
+package udb
+
+import (
+	"github.com/wbcoin/wbcwallet/apperrors"
+	"github.com/wbcoin/wbcwallet/walletdb"
+	"github.com/wbcoin/wbc/chaincfg"
+)
+
+func createBucketError(err error, bucketName string) error {
+	return apperrors.E{
+		ErrorCode:   apperrors.ErrDatabase,
+		Description: "failed to create " + bucketName + " bucket",
+		Err:         err,
+	}
+}
+
+// Initialize prepares an empty database for usage by initializing all buckets
+// and key/value pairs.  The database is initialized with the latest version and
+// does not require any upgrades to use.
+func Initialize(db walletdb.DB, params *chaincfg.Params, seed, pubPass, privPass []byte) error {
+	err := walletdb.Update(db, func(tx walletdb.ReadWriteTx) error {
+		addrmgrNs, err := tx.CreateTopLevelBucket(waddrmgrBucketKey)
+		if err != nil {
+			return createBucketError(err, "address manager")
+		}
+		txmgrNs, err := tx.CreateTopLevelBucket(wtxmgrBucketKey)
+		if err != nil {
+			return createBucketError(err, "transaction store")
+		}
+		stakemgrNs, err := tx.CreateTopLevelBucket(wstakemgrBucketKey)
+		if err != nil {
+			return createBucketError(err, "stake store")
+		}
+
+		// Create the address manager, transaction store, and stake store.
+		err = createAddressManager(addrmgrNs, seed, pubPass, privPass, params, &defaultScryptOptions)
+		if err != nil {
+			return err
+		}
+		err = createStore(txmgrNs, params)
+		if err != nil {
+			return err
+		}
+		err = initializeEmpty(stakemgrNs)
+		if err != nil {
+			return err
+		}
+
+		// Create the metadata bucket and write the current database version to
+		// it.
+		metadataBucket, err := tx.CreateTopLevelBucket(unifiedDBMetadata{}.rootBucketKey())
+		if err != nil {
+			return createBucketError(err, "metadata")
+		}
+		return unifiedDBMetadata{}.putVersion(metadataBucket, initialVersion)
+	})
+	switch err.(type) {
+	case nil:
+	case apperrors.E:
+		return err
+	default:
+		const str = "db update failed"
+		return apperrors.E{ErrorCode: apperrors.ErrDatabase, Description: str, Err: err}
+	}
+	return Upgrade(db, pubPass)
+}
+
+// InitializeWatchOnly prepares an empty database for watching-only wallet usage
+// by initializing all buckets and key/value pairs.  The database is initialized
+// with the latest version and does not require any upgrades to use.
+func InitializeWatchOnly(db walletdb.DB, params *chaincfg.Params, hdPubKey string, pubPass []byte) error {
+	err := walletdb.Update(db, func(tx walletdb.ReadWriteTx) error {
+		addrmgrNs, err := tx.CreateTopLevelBucket(waddrmgrBucketKey)
+		if err != nil {
+			return createBucketError(err, "address manager")
+		}
+		txmgrNs, err := tx.CreateTopLevelBucket(wtxmgrBucketKey)
+		if err != nil {
+			return createBucketError(err, "transaction store")
+		}
+		stakemgrNs, err := tx.CreateTopLevelBucket(wstakemgrBucketKey)
+		if err != nil {
+			return createBucketError(err, "stake store")
+		}
+
+		// Create the address manager, transaction store, and stake store.
+		err = createWatchOnly(addrmgrNs, hdPubKey, pubPass, params, &defaultScryptOptions)
+		if err != nil {
+			return err
+		}
+		err = createStore(txmgrNs, params)
+		if err != nil {
+			return err
+		}
+		err = initializeEmpty(stakemgrNs)
+		if err != nil {
+			return err
+		}
+
+		// Create the metadata bucket and write the current database version to
+		// it.
+		metadataBucket, err := tx.CreateTopLevelBucket(unifiedDBMetadata{}.rootBucketKey())
+		if err != nil {
+			return createBucketError(err, "metadata")
+		}
+		return unifiedDBMetadata{}.putVersion(metadataBucket, initialVersion)
+	})
+	switch err.(type) {
+	case nil:
+	case apperrors.E:
+		return err
+	default:
+		const str = "db update failed"
+		return apperrors.E{ErrorCode: apperrors.ErrDatabase, Description: str, Err: err}
+	}
+	return Upgrade(db, pubPass)
+}
