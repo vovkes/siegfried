@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/database"
-	_ "github.com/wbcoin/wbc/database/ffldb"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 const (

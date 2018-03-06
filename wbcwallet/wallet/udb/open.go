@@ -6,7 +6,7 @@ package udb
 import (
 	"github.com/wbcoin/wbcwallet/apperrors"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 // Open opens the database and returns various "manager" types that must be used

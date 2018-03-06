@@ -9,7 +9,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/wbcoin/wbc/dcrec/secp256k1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1"
 )
 
 type secp256k1DSA struct {

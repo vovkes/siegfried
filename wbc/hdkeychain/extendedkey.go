@@ -19,10 +19,10 @@ import (
 	"math/big"
 
 	"github.com/wbcoin/base58"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 const (

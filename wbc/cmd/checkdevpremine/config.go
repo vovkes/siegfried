@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 
 	flags "github.com/jessevdk/go-flags"
 )

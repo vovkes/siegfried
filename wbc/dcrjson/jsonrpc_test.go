@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestIsValidIDType ensures the IsValidIDType function behaves as expected.

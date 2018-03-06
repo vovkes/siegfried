@@ -22,9 +22,9 @@ import (
 	"github.com/btcsuite/websocket"
 	"github.com/wbcoin/wbcwallet/chain"
 	"github.com/wbcoin/wbcwallet/loader"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/dcrjson"
-	dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 type websocketClient struct {

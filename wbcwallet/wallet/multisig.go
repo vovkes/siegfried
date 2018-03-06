@@ -9,10 +9,10 @@ import (
 	"github.com/wbcoin/wbcwallet/apperrors"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/txscript"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // MakeSecp256k1MultiSigScript creates a multi-signature script that can be

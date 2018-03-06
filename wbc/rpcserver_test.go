@@ -14,8 +14,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/rpctest"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpctest"
 )
 
 func testGetBestBlock(r *rpctest.Harness, t *testing.T) {

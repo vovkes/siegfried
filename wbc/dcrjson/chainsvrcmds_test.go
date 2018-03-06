@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

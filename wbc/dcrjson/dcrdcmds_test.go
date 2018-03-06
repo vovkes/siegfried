@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestBtcdCmds tests all of the btcd extended commands marshal and unmarshal

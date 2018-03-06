@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

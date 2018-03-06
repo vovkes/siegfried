@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 var requiredChainServerAPI = semver{major: 3, minor: 1, patch: 0}

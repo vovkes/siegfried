@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/database"
-	"github.com/wbcoin/wbc/database/ffldb"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // dbType is the database type name for this driver.

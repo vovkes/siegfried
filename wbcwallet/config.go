@@ -23,7 +23,7 @@ import (
 	"github.com/wbcoin/wbcwallet/version"
 	"github.com/wbcoin/wbcwallet/wallet"
 	"github.com/wbcoin/wbcwallet/wallet/txrules"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 const (

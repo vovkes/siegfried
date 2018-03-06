@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/addrmgr"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/addrmgr"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 func TestChance(t *testing.T) {

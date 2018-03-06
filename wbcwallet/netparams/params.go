@@ -4,7 +4,7 @@
 
 package netparams
 
-import "github.com/wbcoin/wbc/chaincfg"
+import "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 
 // Params is used to group parameters for various networks such as the main
 // network and test networks.

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 func decodeHash(reversedHash string) chainhash.Hash {

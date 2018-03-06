@@ -12,7 +12,7 @@ import (
 
 	"github.com/btcsuite/btclog"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 const (

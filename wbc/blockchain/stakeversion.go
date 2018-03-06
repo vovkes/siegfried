@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // TestTx tests the API for Tx.

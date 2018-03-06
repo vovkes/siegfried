@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/certgen"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/certgen"
 )
 
 // TestNewTLSCertPair ensures the NewTLSCertPair function works as expected.

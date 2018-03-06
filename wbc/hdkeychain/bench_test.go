@@ -7,7 +7,7 @@ package hdkeychain_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 )
 
 // bip0032MasterPriv1 is the master private extended key from the first set of

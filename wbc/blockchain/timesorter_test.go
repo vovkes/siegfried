@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 )
 
 // TestTimeSorter tests the timeSorter implementation.

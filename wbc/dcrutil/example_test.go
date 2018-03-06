@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 func ExampleAmount() {

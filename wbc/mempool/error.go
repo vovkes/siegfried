@@ -5,8 +5,8 @@
 package mempool
 
 import (
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

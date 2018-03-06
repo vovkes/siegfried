@@ -14,16 +14,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/blockchain/indexers"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/mining"
-	"github.com/wbcoin/wbc/txscript"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/indexers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/mining"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 const (

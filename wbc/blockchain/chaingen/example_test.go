@@ -6,8 +6,8 @@ package chaingen_test
 import (
 	"fmt"
 
-	"github.com/wbcoin/wbc/blockchain/chaingen"
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/chaingen"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 // This example demonstrates creating a new generator instance and using it to

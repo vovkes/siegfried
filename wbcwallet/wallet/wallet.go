@@ -23,18 +23,18 @@ import (
 	"github.com/wbcoin/wbcwallet/wallet/txrules"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrec/secp256k1"
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/hdkeychain"
-	dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
-	"github.com/wbcoin/wbc/txscript"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
+	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -760,7 +760,7 @@ func (w *Wallet) FetchHeaders(n NetworkBackend) (count int, rescanFrom chainhash
 	// reverse order, stopping at the first block that is found and that exists
 	// on the actual main chain.
 	//
-	// See https://github.com/wbcoin/wbc/issues/427 for details.  This hack
+	// See https://bitbucket.org/siegfriedvmblockchain/siegfried/wbc/issues/427 for details.  This hack
 	// should be dumped once fixed.
 	var (
 		commonAncestor       chainhash.Hash

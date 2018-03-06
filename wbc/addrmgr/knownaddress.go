@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // KnownAddress tracks information about a known network address that is used

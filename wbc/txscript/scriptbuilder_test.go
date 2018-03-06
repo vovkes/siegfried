@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/wbcoin/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )
 
 // TestScriptBuilderAddOp tests that pushing opcodes to a script via the

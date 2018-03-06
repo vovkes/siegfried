@@ -10,10 +10,10 @@ import (
 	"runtime"
 
 	"github.com/btcsuite/btclog"
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/blockchain/indexers"
-	"github.com/wbcoin/wbc/database"
-	"github.com/wbcoin/wbc/limits"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/indexers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/limits"
 )
 
 const (

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // TestAppDataDir tests the API for AppDataDir to ensure it gives expected

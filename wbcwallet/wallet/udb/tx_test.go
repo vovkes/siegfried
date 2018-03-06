@@ -17,10 +17,10 @@ import (
 
 	"github.com/wbcoin/wbcwallet/walletdb"
 	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // Received transaction output for mainnet outpoint

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestCmdMethod tests the CmdMethod function to ensure it returns the expected

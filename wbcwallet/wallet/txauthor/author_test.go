@@ -9,8 +9,8 @@ import (
 
 	. "github.com/wbcoin/wbcwallet/wallet/txauthor"
 	"github.com/wbcoin/wbcwallet/wallet/txrules"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
 	"github.com/wbcoin/wbcwallet/wallet/internal/txsizes"
 )

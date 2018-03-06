@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // RejectCode represents a numeric value by which a remote peer indicates

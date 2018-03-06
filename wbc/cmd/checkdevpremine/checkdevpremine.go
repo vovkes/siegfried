@@ -13,11 +13,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/rpcclient"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // Codes that are returned to the operating system.

@@ -9,9 +9,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // maxPoolFeeRate is the maximum value of the pool fee

@@ -10,10 +10,10 @@ import (
 	"github.com/wbcoin/wbcwallet/wallet/txauthor"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/hdkeychain"
-	"github.com/wbcoin/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )
 
 // DefaultGapLimit is the default unused address gap limit defined by BIP0044.

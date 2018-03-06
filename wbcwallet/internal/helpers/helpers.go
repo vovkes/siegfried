@@ -7,8 +7,8 @@
 package helpers
 
 import (
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

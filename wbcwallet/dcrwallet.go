@@ -24,7 +24,7 @@ import (
 	"github.com/wbcoin/wbcwallet/rpc/rpcserver"
 	"github.com/wbcoin/wbcwallet/version"
 	"github.com/wbcoin/wbcwallet/wallet"
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 var (

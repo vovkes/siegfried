@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/wbcoin/wbc/certgen"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/certgen"
 )
 
 // GenCertPair generates a key/cert pair to the paths provided.

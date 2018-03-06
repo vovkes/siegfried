@@ -7,9 +7,9 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 // nodeAtHeightFromTopNode goes backwards through a node until it a reaches

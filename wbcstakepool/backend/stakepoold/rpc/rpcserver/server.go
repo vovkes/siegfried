@@ -19,7 +19,7 @@ import (
 
 	pb "github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/stakepoolrpc"
 	"github.com/wbcoin/wbcstakepool/backend/stakepoold/userdata"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // Public API version constants

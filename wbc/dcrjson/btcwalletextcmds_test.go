@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestBtcWalletExtCmds tests all of the btcwallet extended commands marshal and

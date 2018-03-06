@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/wbcoin/wbcwallet/internal/rpchelp"
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 var outputFile = func() *os.File {

@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // Calculate the hash of hasher over buf.

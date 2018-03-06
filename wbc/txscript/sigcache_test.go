@@ -9,8 +9,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

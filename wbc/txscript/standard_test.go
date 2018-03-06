@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )
 
 // decodeHex decodes the passed hex string and returns the resulting bytes.  It

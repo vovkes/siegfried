@@ -7,8 +7,8 @@ package blockchain_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 func TestBlockSubsidy(t *testing.T) {

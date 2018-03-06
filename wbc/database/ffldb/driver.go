@@ -8,8 +8,8 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btclog"
-	"github.com/wbcoin/wbc/database"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 var log = btclog.Disabled

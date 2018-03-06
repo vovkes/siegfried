@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // testScriptFlags are the script flags which are used in the tests when

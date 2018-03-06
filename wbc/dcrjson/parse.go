@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // EncodeConcatenatedHashes serializes a slice of chainhash.Hash values into a

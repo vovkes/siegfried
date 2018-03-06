@@ -11,15 +11,15 @@ import (
 
 	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
-	"github.com/wbcoin/wbc/addrmgr"
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/blockchain/indexers"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/connmgr"
-	"github.com/wbcoin/wbc/database"
-	"github.com/wbcoin/wbc/mempool"
-	"github.com/wbcoin/wbc/peer"
-	"github.com/wbcoin/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/addrmgr"
+	"bitbucket.org/siegfrie/dvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/indexers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/connmgr"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/mempool"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/peer"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

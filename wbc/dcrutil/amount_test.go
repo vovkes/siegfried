@@ -10,7 +10,7 @@ import (
 	"sort"
 	"testing"
 
-	. "github.com/wbcoin/wbc/dcrutil"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 func TestAmountCreation(t *testing.T) {

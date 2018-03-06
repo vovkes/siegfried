@@ -15,9 +15,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 	"github.com/wbcoin/wbcutil"
 	"github.com/wbcoin/wbcutil/hdkeychain"
 	"github.com/wbcoin/wbcwallet/wallet/udb"

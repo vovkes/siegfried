@@ -13,7 +13,7 @@ import (
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
-	"github.com/wbcoin/wbc/database/internal/treap"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/internal/treap"
 )
 
 const (

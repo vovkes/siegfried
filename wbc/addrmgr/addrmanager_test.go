@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/addrmgr"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/addrmgr"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

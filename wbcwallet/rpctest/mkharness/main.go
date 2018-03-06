@@ -10,9 +10,9 @@ import (
 	//"strings"
 	//"time"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	//dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
-	//"github.com/wbcoin/wbc/wbcutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	//dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
+	//"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wbcutil"
 	//"github.com/wbcoin/dcrwallet/rpc/legacyrpc"
 	"github.com/wbcoin/wbcwallet/rpctest"
 )

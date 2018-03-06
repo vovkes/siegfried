@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

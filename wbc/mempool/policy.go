@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/txscript"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 const (

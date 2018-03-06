@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	flags "github.com/btcsuite/go-flags"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 const (

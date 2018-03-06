@@ -15,8 +15,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the

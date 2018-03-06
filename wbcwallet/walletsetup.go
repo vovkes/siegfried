@@ -19,9 +19,9 @@ import (
 	"github.com/wbcoin/wbcwallet/walletdb"
 	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
 	"github.com/wbcoin/wbcwallet/walletseed"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/hdkeychain"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

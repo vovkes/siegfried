@@ -6,7 +6,7 @@ package chaincfg
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 func TestInvalidHashStr(t *testing.T) {

@@ -4,7 +4,7 @@
 
 package mining
 
-import "github.com/wbcoin/wbc/dcrutil"
+import "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 
 // Policy houses the policy (configuration parameters) which is used to control
 // the generation of block templates.  See the documentation for

@@ -8,7 +8,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/wbcoin/wbc/dcrec/edwards"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/edwards"
 )
 
 type edwardsDSA struct {

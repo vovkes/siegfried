@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 // headersCmd defines the configuration options for the loadheaders command.

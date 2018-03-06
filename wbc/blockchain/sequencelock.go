@@ -6,9 +6,9 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // SequenceLock represents the minimum timestamp and minimum block height after

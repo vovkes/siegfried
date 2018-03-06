@@ -7,7 +7,7 @@ package bloom_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/bloom"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/bloom"
 )
 
 // TestMurmurHash3 ensure the MurmurHash3 function produces the correct hash

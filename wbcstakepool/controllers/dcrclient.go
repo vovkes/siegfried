@@ -12,10 +12,10 @@ import (
 
 	"github.com/wbcoin/wbcstakepool/models"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 // functionName

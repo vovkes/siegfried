@@ -10,7 +10,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 
 	"github.com/btcsuite/go-socks/socks"
 )

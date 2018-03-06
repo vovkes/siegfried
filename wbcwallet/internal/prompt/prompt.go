@@ -14,7 +14,7 @@ import (
 	"unicode"
 
 	"github.com/wbcoin/wbcwallet/walletseed"
-	"github.com/wbcoin/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

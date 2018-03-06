@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/wbcoin/wbcstakepool/backend/stakepoold/userdata"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 func TestCalculateFeeAddresses(t *testing.T) {

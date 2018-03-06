@@ -7,9 +7,9 @@ package dcrutil_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	. "github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {

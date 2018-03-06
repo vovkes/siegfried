@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/wbcoin/wbc/bloom"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/bloom"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

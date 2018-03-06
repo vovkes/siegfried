@@ -6,7 +6,7 @@ package wallet
 import (
 	"github.com/wbcoin/wbcwallet/wallet/udb"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 )
 
 // UpgradeToSLIP0044CoinType upgrades the wallet from the legacy BIP0044 coin

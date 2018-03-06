@@ -10,8 +10,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrec/secp256k1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1"
 )
 
 type signerHex struct {

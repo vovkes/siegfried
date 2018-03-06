@@ -10,8 +10,8 @@ import (
 
 	"github.com/btcsuite/btclog"
 
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // BlockProgressLogger provides periodic logging for other services in order

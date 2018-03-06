@@ -14,8 +14,8 @@ import (
 	"time"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/wbcoin/wbc/certgen"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/certgen"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 type config struct {

@@ -7,10 +7,10 @@ import (
 	"github.com/wbcoin/wbcwallet/apperrors"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/txscript"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // OutputSelectionPolicy describes the rules for selecting an output from the

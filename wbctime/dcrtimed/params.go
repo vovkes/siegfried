@@ -6,8 +6,8 @@ package main
 
 import (
 	"github.com/wbcoin/wbcwallet/netparams"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

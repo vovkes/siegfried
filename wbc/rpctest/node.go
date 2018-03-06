@@ -15,8 +15,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/wbcoin/wbc/certgen"
-	rpc "github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/certgen"
+	rpc "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 // nodeConfig contains all the args, and data required to launch a wbc process

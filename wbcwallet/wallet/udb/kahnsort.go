@@ -5,7 +5,7 @@
 package udb
 
 import (
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 type graphNode struct {

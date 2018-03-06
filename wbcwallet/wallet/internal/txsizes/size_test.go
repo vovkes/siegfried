@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	. "github.com/wbcoin/wbcwallet/wallet/internal/txsizes"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 const (

@@ -22,12 +22,12 @@ import (
 	"github.com/btcsuite/btclog"
 	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/wbcoin/wbc/connmgr"
-	"github.com/wbcoin/wbc/database"
-	_ "github.com/wbcoin/wbc/database/ffldb"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/mempool"
-	"github.com/wbcoin/wbc/sampleconfig"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/connmgr"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/mempool"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/sampleconfig"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 
 	"github.com/wbcoin/wbcwallet/walletdb"
 	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 func TestStakeInvalidationOfTip(t *testing.T) {

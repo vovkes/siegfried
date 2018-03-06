@@ -7,7 +7,7 @@ package rpcclient
 import (
 	"encoding/json"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // AddNodeCommand enumerates the available commands that the AddNode function

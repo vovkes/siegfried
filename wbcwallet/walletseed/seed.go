@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/wbcoin/wbcwallet/pgpwordlist"
-	"github.com/wbcoin/wbc/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 )
 
 // GenerateRandomSeed returns a new seed created from a cryptographically-secure

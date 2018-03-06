@@ -7,7 +7,7 @@ package blockchain_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

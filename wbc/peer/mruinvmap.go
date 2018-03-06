@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // mruInventoryMap provides a concurrency safe map that is limited to a maximum

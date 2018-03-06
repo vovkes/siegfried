@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
-	rpc "github.com/wbcoin/wbc/rpcclient"
+	rpc "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 // walletTestConfig contains all the args, and data required to launch a dcrwallet process

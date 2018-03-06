@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/wbcoin/wbctime/dcrtimed/backend/filesystem"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 var (

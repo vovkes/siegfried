@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // AmountFlag embeds a wbcutil.Amount and implements the flags.Marshaler and

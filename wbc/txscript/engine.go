@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/wbcoin/wbc/chaincfg/chainec"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

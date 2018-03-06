@@ -16,14 +16,14 @@ import (
 	"time"
 
 	"github.com/wbcoin/wbcwallet/rpc/legacyrpc"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/dcrutil"
-	dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
-	"github.com/wbcoin/wbc/txscript"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 type rpcTestCase func(r *Harness, t *testing.T)

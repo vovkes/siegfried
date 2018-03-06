@@ -16,7 +16,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/wbcoin/wbctime/dcrtimed/backend"
 	"github.com/wbcoin/wbctime/merkle"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 func TestEncodeDecode(t *testing.T) {

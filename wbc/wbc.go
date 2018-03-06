@@ -13,8 +13,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/wbcoin/wbc/blockchain/indexers"
-	"github.com/wbcoin/wbc/limits"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/indexers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/limits"
 )
 
 var cfg *config

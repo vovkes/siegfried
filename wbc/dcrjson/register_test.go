@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

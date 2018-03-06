@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	. "github.com/wbcoin/wbcwallet/wallet/txrules"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 func TestStakePoolTicketFee(t *testing.T) {

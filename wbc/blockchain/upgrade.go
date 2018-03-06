@@ -5,10 +5,10 @@
 package blockchain
 
 import (
-	"github.com/wbcoin/wbc/blockchain/internal/progresslog"
-	"github.com/wbcoin/wbc/blockchain/stake"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/internal/progresslog"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 // upgradeToVersion2 upgrades a version 1 blockchain to version 2, allowing

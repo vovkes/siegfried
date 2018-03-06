@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

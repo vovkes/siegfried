@@ -10,9 +10,9 @@ package indexers
 import (
 	"encoding/binary"
 
-	"github.com/wbcoin/wbc/blockchain"
-	"github.com/wbcoin/wbc/database"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 var (

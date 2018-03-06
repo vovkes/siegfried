@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/wbcoin/wbc/addrmgr"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/addrmgr"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

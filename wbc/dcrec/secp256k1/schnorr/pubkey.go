@@ -7,7 +7,7 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/wbcoin/wbc/dcrec/secp256k1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1"
 )
 
 // These constants define the lengths of serialized public keys.

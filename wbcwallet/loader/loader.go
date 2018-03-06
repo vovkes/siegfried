@@ -13,9 +13,9 @@ import (
 	"github.com/wbcoin/wbcwallet/wallet"
 	"github.com/wbcoin/wbcwallet/walletdb"
 	_ "github.com/wbcoin/wbcwallet/walletdb/bdb" // driver loaded during init
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/dcrutil"
-	dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 const (

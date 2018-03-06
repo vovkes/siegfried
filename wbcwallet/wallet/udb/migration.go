@@ -6,7 +6,7 @@ package udb
 import (
 	"github.com/wbcoin/wbcwallet/apperrors"
 	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 // Old package namespace bucket keys.  These are still used as of the very first

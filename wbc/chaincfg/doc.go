@@ -25,8 +25,8 @@
 //          "fmt"
 //          "log"
 //
-//          "github.com/wbcoin/wbc/wbcutil"
-//          "github.com/wbcoin/wbc/chaincfg"
+//          "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wbcutil"
+//          "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet WBC network")

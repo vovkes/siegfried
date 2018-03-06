@@ -7,7 +7,7 @@ package stake_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/blockchain/stake"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

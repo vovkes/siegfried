@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/database"
-	_ "github.com/wbcoin/wbc/database/ffldb"
-	"github.com/wbcoin/wbc/dcrutil"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // This example demonstrates creating a new database.
@@ -22,8 +22,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/wbcoin/wbc/database2"
-	// 	_ "github.com/wbcoin/wbc/database/ffldb"
+	// 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database2"
+	// 	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -48,8 +48,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/wbcoin/wbc/database2"
-	// 	_ "github.com/wbcoin/wbc/database/ffldb"
+	// 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database2"
+	// 	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -114,8 +114,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/wbcoin/wbc/database2"
-	// 	_ "github.com/wbcoin/wbc/database/ffldb"
+	// 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database2"
+	// 	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

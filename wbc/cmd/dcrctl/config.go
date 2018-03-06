@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 
 	"github.com/jessevdk/go-flags"
 )

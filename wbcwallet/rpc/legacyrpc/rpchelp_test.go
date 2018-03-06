@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/wbcoin/wbcwallet/internal/rpchelp"
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 func serverMethods() map[string]struct{} {

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

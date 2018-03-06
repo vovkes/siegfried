@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 // The serialized write cursor location format is:

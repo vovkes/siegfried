@@ -8,7 +8,7 @@ import (
 	"errors"
 
 	"github.com/wbcoin/wbctime/merkle"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 const (

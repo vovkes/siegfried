@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/blockchain/stake/internal/dbnamespace"
-	"github.com/wbcoin/wbc/blockchain/stake/internal/tickettreap"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/database"
-	_ "github.com/wbcoin/wbc/database/ffldb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake/internal/dbnamespace"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake/internal/tickettreap"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
 )
 
 const (

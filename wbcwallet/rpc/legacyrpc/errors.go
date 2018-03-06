@@ -7,7 +7,7 @@ package legacyrpc
 import (
 	"errors"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TODO(jrick): There are several error paths which 'replace' various errors

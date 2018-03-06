@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // MsgGetHeaders implements the Message interface and represents a wbcoin

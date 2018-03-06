@@ -3,7 +3,7 @@ package controllers
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 func TestGetNetworkName(t *testing.T) {

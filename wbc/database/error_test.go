@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

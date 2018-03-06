@@ -17,7 +17,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/wbcoin/wbc/dcrec/secp256k1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1"
 )
 
 func main() {

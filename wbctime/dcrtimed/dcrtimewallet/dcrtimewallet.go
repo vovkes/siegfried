@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc/credentials"
 
 	pb "github.com/wbcoin/wbcwallet/rpc/walletrpc"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )
 
 type DcrtimeWallet struct {

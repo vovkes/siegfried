@@ -10,7 +10,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // MessageHeaderSize is the number of bytes in a wbcoin message header.

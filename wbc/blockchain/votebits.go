@@ -5,7 +5,7 @@
 package blockchain
 
 import (
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 // deploymentChecker provides a thresholdConditionChecker which can be used to

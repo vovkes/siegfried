@@ -4,7 +4,7 @@
 
 package cfgutil
 
-import "github.com/wbcoin/wbc/dcrutil"
+import "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 
 // AddressFlag embeds a wbcutil.Address and implements the flags.Marshaler and
 // Unmarshaler interfaces so it can be used as a config struct field.

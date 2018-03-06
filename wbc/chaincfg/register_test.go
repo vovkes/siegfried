@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/wbcoin/wbc/chaincfg"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

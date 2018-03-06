@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // addrIndexBucket provides a mock address index database bucket by implementing

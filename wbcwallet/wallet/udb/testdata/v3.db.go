@@ -13,7 +13,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"github.com/wbcoin/wbcutil/hdkeychain"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
 	"github.com/wbcoin/wbcwallet/walletdb"

@@ -8,8 +8,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/wbcoin/wbc/dcrec/secp256k1"
-	"github.com/wbcoin/wbc/dcrec/secp256k1/schnorr"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrec/secp256k1/schnorr"
 )
 
 type secSchnorrDSA struct {

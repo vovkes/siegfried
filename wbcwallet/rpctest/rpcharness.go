@@ -15,11 +15,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 
-	"github.com/wbcoin/wbc/dcrutil"
-	rpc "github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
+	rpc "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 var (

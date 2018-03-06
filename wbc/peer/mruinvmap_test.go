@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 // TestMruInventoryMap ensures the MruInventoryMap behaves as expected including

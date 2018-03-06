@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // MaxMSBlocksAtHeadPerMsg is the maximum number of block hashes allowed

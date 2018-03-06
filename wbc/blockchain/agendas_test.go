@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/txscript"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )
 
 // testLNFeaturesDeployment ensures the deployment of the LN features agenda

@@ -5,7 +5,7 @@
 package txsizes
 
 import (
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
 	h "github.com/wbcoin/wbcwallet/internal/helpers"
 )

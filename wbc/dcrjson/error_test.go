@@ -7,7 +7,7 @@ package dcrjson_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

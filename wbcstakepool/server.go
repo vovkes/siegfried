@@ -14,7 +14,7 @@ import (
 	"github.com/wbcoin/wbcstakepool/controllers"
 	"github.com/wbcoin/wbcstakepool/stakepooldclient"
 	"github.com/wbcoin/wbcstakepool/system"
-	"github.com/wbcoin/wbc/rpcclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 
 	"github.com/zenazn/goji/graceful"
 	"github.com/zenazn/goji/web"

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 
 var (

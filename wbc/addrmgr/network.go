@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 var (

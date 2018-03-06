@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 type DBConfig struct {

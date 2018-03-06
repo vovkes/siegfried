@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/wbcoin/wbc/database"
-	_ "github.com/wbcoin/wbc/database/ffldb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database/ffldb"
 )
 
 var (

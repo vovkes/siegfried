@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 const (

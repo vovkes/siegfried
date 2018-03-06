@@ -16,8 +16,8 @@ import (
 
 	"github.com/wbcoin/wbcwallet/walletdb"
 	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 var dbUpgradeTests = [...]struct {

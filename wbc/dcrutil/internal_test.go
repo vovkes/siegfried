@@ -13,7 +13,7 @@ package dcrutil
 
 import (
 	"github.com/wbcoin/base58"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
 
 	"golang.org/x/crypto/ripemd160"
 )

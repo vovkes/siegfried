@@ -11,8 +11,8 @@ import (
 	"golang.org/x/crypto/ripemd160"
 
 	"github.com/wbcoin/base58"
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/chaincfg/chainec"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
 )
 
 var (

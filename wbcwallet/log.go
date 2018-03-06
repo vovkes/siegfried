@@ -18,7 +18,7 @@ import (
 	"github.com/wbcoin/wbcwallet/ticketbuyer"
 	"github.com/wbcoin/wbcwallet/wallet"
 	"github.com/wbcoin/wbcwallet/wallet/udb"
-	dcrrpcclient "github.com/wbcoin/wbc/rpcclient"
+	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

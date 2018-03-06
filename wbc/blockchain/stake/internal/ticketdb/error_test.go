@@ -7,7 +7,7 @@ package ticketdb_test
 import (
 	"testing"
 
-	"github.com/wbcoin/wbc/blockchain/stake/internal/ticketdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake/internal/ticketdb"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 )
 
 // TestMedianTime tests the medianTime implementation.

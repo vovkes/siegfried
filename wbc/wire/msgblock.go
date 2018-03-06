@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

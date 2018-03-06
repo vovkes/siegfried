@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btclog"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // blockProgressLogger provides periodic logging for other services in order

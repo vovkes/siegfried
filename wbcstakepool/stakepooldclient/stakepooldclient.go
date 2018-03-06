@@ -8,7 +8,7 @@ import (
 
 	pb "github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/stakepoolrpc"
 	"github.com/wbcoin/wbcstakepool/models"
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 	"golang.org/x/net/context"
 )
 

@@ -6,7 +6,7 @@
 
 package rpchelp
 
-import "github.com/wbcoin/wbc/dcrjson"
+import "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 
 // Common return types.
 var (

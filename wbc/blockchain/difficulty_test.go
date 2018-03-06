@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/wbcoin/wbc/chaincfg"
-	"github.com/wbcoin/wbc/wire"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 
 func TestBigToCompact(t *testing.T) {

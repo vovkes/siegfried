@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/wbcoin/wbcwallet/wallet"
-	"github.com/wbcoin/wbc/dcrjson"
-	"github.com/wbcoin/wbc/dcrutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 
 // ownTicketsInMempool finds all the tickets owned by the user in the

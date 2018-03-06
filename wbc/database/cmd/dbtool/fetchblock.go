@@ -9,8 +9,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/wbcoin/wbc/chaincfg/chainhash"
-	"github.com/wbcoin/wbc/database"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/database"
 )
 
 // fetchBlockCmd defines the configuration options for the fetchblock command.
