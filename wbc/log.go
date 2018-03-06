@@ -12,7 +12,7 @@ import (
 	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/addrmgr"
-	"bitbucket.org/siegfrie/dvmblockchain/siegfried/wbc/blockchain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/indexers"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/connmgr"
