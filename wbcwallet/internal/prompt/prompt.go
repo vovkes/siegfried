@@ -13,7 +13,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/wbcoin/wbcwallet/walletseed"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletseed"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 	"golang.org/x/crypto/ssh/terminal"
 )

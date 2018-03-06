@@ -3,8 +3,8 @@ package prompt
 import (
 	"bufio"
 
-	"github.com/wbcoin/wbcwallet/internal/prompt"
-	"github.com/wbcoin/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/prompt"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
 )
 
 // Setup prompts for, from a buffered reader, the private and/or public

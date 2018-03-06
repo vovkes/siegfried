@@ -10,8 +10,8 @@ Overview
 This client provides a robust and easy to use client for interfacing
 with a WBC RPC server that uses a mostly btcd/bitcoin core
 style WBC JSON-RPC API.  This client has been tested with wbc
-(https://github.com/wbcoin/wbc) and wbcwallet
-(https://github.com/wbcoin/dcrwallet).
+(https://bitbucket.org/siegfriedvmblockchain/siegfried/wbc) and wbcwallet
+(https://bitbucket.org/siegfriedvmblockchain/siegfried/dcrwallet).
 
 In addition to the compatible standard HTTP POST JSON-RPC API, wbc and
 wbcwallet provide a websocket interface that is more efficient than the standard

@@ -11,13 +11,13 @@ import (
 
 	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
-	"github.com/wbcoin/wbcwallet/chain"
-	"github.com/wbcoin/wbcwallet/loader"
-	"github.com/wbcoin/wbcwallet/rpc/legacyrpc"
-	"github.com/wbcoin/wbcwallet/rpc/rpcserver"
-	"github.com/wbcoin/wbcwallet/ticketbuyer"
-	"github.com/wbcoin/wbcwallet/wallet"
-	"github.com/wbcoin/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/chain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/loader"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/legacyrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/rpcserver"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/ticketbuyer"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
 	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 )
 

@@ -3,7 +3,7 @@ package txsizes_test
 import (
 	"testing"
 
-	. "github.com/wbcoin/wbcwallet/wallet/internal/txsizes"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/internal/txsizes"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )
 

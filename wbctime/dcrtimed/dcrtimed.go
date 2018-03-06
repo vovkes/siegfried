@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/wbcoin/wbctime/api/v1"
-	"github.com/wbcoin/wbctime/dcrtimed/backend"
-	"github.com/wbcoin/wbctime/dcrtimed/backend/filesystem"
-	"github.com/wbcoin/wbctime/util"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/api/v1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend/filesystem"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/util"
 )
 
 const (

@@ -4,6 +4,6 @@
 
 package main
 
-import "github.com/wbcoin/wbcwallet/netparams"
+import "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/netparams"
 
 var activeNet = &netparams.MainNetParams

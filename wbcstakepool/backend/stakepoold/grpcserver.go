@@ -19,7 +19,7 @@ import (
 
 	xcontext "golang.org/x/net/context"
 
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/rpcserver"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/rpc/rpcserver"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/certgen"
 
 	"google.golang.org/grpc"

@@ -2,7 +2,7 @@ package helpers
 
 import (
 	"github.com/go-gorp/gorp"
-	"github.com/wbcoin/wbcstakepool/models"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

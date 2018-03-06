@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"

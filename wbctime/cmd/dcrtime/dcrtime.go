@@ -18,8 +18,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/wbcoin/wbctime/api/v1"
-	"github.com/wbcoin/wbctime/merkle"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/api/v1"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/merkle"
 )
 
 const (

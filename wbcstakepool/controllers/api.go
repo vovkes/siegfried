@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/wbcoin/wbcstakepool/system"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/system"
 )
 
 type ApiController struct {

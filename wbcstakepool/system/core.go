@@ -14,7 +14,7 @@ import (
 
 	"github.com/go-gorp/gorp"
 	"github.com/gorilla/sessions"
-	"github.com/wbcoin/wbcstakepool/models"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/models"
 	"github.com/zenazn/goji/web"
 
 	"google.golang.org/grpc/codes"

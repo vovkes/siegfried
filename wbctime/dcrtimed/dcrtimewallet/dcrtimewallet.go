@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "github.com/wbcoin/wbcwallet/rpc/walletrpc"
+	pb "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/walletrpc"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 )

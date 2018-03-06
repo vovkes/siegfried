@@ -17,12 +17,12 @@ import (
 
 	"github.com/btcsuite/btclog"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/wbcoin/wbcwallet/internal/cfgutil"
-	"github.com/wbcoin/wbcwallet/netparams"
-	"github.com/wbcoin/wbcwallet/ticketbuyer"
-	"github.com/wbcoin/wbcwallet/version"
-	"github.com/wbcoin/wbcwallet/wallet"
-	"github.com/wbcoin/wbcwallet/wallet/txrules"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/cfgutil"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/netparams"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/ticketbuyer"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/version"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txrules"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 

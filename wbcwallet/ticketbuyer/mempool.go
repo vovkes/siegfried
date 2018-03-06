@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )

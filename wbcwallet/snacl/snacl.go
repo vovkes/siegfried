@@ -12,7 +12,7 @@ import (
 	"io"
 	"runtime/debug"
 
-	"github.com/wbcoin/wbcwallet/internal/zero"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/zero"
 
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/scrypt"

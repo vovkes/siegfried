@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/wbcoin/wbcwallet/ticketbuyer"
-	"github.com/wbcoin/wbcwallet/wallet"
-	"github.com/wbcoin/wbcwallet/walletdb"
-	_ "github.com/wbcoin/wbcwallet/walletdb/bdb" // driver loaded during init
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/ticketbuyer"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb/bdb" // driver loaded during init
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"

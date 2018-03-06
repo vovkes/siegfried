@@ -6,8 +6,8 @@ package wallet
 import (
 	"errors"
 
-	"github.com/wbcoin/wbcwallet/wallet/udb"
-	"github.com/wbcoin/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 

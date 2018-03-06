@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/wbcoin/base58"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/base58"
 )
 
 func BenchmarkBase58Encode(b *testing.B) {

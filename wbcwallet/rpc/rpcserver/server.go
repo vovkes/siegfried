@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/wbcoin/dcrwallet/blob/master/rpc/documentation/api.md
+//   https://bitbucket.org/siegfriedvmblockchain/siegfried/dcrwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/wbcoin/dcrwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://bitbucket.org/siegfriedvmblockchain/siegfried/dcrwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -29,22 +29,22 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/wbcoin/wbcwallet/apperrors"
-	"github.com/wbcoin/wbcwallet/chain"
-	"github.com/wbcoin/wbcwallet/internal/cfgutil"
-	h "github.com/wbcoin/wbcwallet/internal/helpers"
-	"github.com/wbcoin/wbcwallet/internal/zero"
-	"github.com/wbcoin/wbcwallet/loader"
-	"github.com/wbcoin/wbcwallet/netparams"
-	"github.com/wbcoin/wbcwallet/rpc/legacyrpc"
-	pb "github.com/wbcoin/wbcwallet/rpc/walletrpc"
-	"github.com/wbcoin/wbcwallet/ticketbuyer"
-	"github.com/wbcoin/wbcwallet/wallet"
-	"github.com/wbcoin/wbcwallet/wallet/txauthor"
-	"github.com/wbcoin/wbcwallet/wallet/txrules"
-	"github.com/wbcoin/wbcwallet/wallet/udb"
-	"github.com/wbcoin/wbcwallet/walletdb"
-	"github.com/wbcoin/wbcwallet/walletseed"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/chain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/cfgutil"
+	h "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/helpers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/zero"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/loader"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/netparams"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/legacyrpc"
+	pb "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/walletrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/ticketbuyer"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txauthor"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txrules"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletseed"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"

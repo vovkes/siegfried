@@ -7,12 +7,12 @@ package txauthor_test
 import (
 	"testing"
 
-	. "github.com/wbcoin/wbcwallet/wallet/txauthor"
-	"github.com/wbcoin/wbcwallet/wallet/txrules"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txauthor"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txrules"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
-	"github.com/wbcoin/wbcwallet/wallet/internal/txsizes"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/internal/txsizes"
 )
 
 func p2pkhOutputs(amounts ...dcrutil.Amount) []*wire.TxOut {

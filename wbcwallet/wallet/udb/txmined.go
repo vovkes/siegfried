@@ -12,8 +12,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/apperrors"
-	"github.com/wbcoin/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"

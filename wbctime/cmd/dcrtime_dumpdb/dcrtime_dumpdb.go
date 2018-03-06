@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/wbcoin/wbctime/dcrtimed/backend/filesystem"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend/filesystem"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )
 

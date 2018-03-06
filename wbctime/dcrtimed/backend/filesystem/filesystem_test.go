@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/wbcoin/wbctime/dcrtimed/backend"
-	"github.com/wbcoin/wbctime/merkle"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/merkle"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 

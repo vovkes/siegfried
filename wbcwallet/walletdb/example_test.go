@@ -13,8 +13,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/wbcoin/wbcwallet/walletdb"
-	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb/bdb"
 )
 
 // This example demonstrates creating a new database.

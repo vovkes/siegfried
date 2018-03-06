@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/jrick/bitset"
-	"github.com/wbcoin/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"

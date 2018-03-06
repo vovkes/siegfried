@@ -17,8 +17,8 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	pb "github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/stakepoolrpc"
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/userdata"
+	pb "bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/rpc/stakepoolrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/userdata"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 

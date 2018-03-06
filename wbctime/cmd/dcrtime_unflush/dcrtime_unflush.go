@@ -13,8 +13,8 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/wbcoin/wbctime/dcrtimed/backend"
-	"github.com/wbcoin/wbctime/dcrtimed/backend/filesystem"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend/filesystem"
 )
 
 const (

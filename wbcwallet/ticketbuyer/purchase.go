@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
 )
 
 // PurchaseManager is the main handler of websocket notifications to

@@ -14,7 +14,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/wbcoin/wbctime/dcrtimed/backend"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/dcrtimed/backend"
 )
 
 // dumpGlobal dumps the global dir and creates a timestamp and digest lookup

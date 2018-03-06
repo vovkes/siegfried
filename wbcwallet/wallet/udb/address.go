@@ -7,7 +7,7 @@ package udb
 import (
 	"encoding/hex"
 
-	"github.com/wbcoin/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"

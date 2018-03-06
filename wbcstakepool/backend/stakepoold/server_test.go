@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/userdata"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/userdata"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )

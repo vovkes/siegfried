@@ -7,7 +7,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/wbcoin/base58"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/base58"
 )
 
 var checkEncodingStringTests = []struct {

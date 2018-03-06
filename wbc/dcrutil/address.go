@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/wbcoin/base58"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/base58"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
 )

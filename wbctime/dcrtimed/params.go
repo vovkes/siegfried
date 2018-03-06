@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/wbcoin/wbcwallet/netparams"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/netparams"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 )

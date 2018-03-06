@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/wbcoin/wbcwallet/internal/rpchelp"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/rpchelp"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 

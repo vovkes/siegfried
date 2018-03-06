@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/apperrors"
-	"github.com/wbcoin/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
 )
 
 var (

@@ -14,7 +14,7 @@ package udb
 import (
 	"errors"
 
-	"github.com/wbcoin/wbcwallet/snacl"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/snacl"
 )
 
 // TstLatestMgrVersion makes the unexported latestMgrVersion variable available

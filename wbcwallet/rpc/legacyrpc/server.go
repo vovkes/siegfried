@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/websocket"
-	"github.com/wbcoin/wbcwallet/chain"
-	"github.com/wbcoin/wbcwallet/loader"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/chain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/loader"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 	dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"

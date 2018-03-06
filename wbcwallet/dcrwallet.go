@@ -16,14 +16,14 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/chain"
-	"github.com/wbcoin/wbcwallet/internal/prompt"
-	"github.com/wbcoin/wbcwallet/internal/zero"
-	ldr "github.com/wbcoin/wbcwallet/loader"
-	"github.com/wbcoin/wbcwallet/rpc/legacyrpc"
-	"github.com/wbcoin/wbcwallet/rpc/rpcserver"
-	"github.com/wbcoin/wbcwallet/version"
-	"github.com/wbcoin/wbcwallet/wallet"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/chain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/prompt"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/zero"
+	ldr "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/loader"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/legacyrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/rpcserver"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/version"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 )
 

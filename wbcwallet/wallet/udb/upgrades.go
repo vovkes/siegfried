@@ -6,9 +6,9 @@ package udb
 import (
 	"crypto/sha256"
 
-	"github.com/wbcoin/wbcwallet/apperrors"
-	"github.com/wbcoin/wbcwallet/snacl"
-	"github.com/wbcoin/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/snacl"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"

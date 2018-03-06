@@ -7,7 +7,7 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/wbcoin/wbctime/merkle"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/merkle"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 )
 

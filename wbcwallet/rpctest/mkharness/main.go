@@ -13,8 +13,8 @@ import (
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	//dcrrpcclient "bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 	//"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wbcutil"
-	//"github.com/wbcoin/dcrwallet/rpc/legacyrpc"
-	"github.com/wbcoin/wbcwallet/rpctest"
+	//"bitbucket.org/siegfriedvmblockchain/siegfried/dcrwallet/rpc/legacyrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpctest"
 )
 
 func main() {

@@ -10,7 +10,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/wbcoin/wbcwallet/pgpwordlist"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/pgpwordlist"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/hdkeychain"
 )
 

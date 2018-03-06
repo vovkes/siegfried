@@ -12,7 +12,7 @@ interface. The functions are only exported while the tests are being run.
 package dcrutil
 
 import (
-	"github.com/wbcoin/base58"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/base58"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
 
 	"golang.org/x/crypto/ripemd160"

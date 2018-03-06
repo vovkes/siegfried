@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/wbcoin/base58"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/base58"
 )
 
 var stringTests = []struct {

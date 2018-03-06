@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/rpc/legacyrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/legacyrpc"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"

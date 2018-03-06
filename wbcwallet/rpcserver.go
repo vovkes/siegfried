@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/loader"
-	"github.com/wbcoin/wbcwallet/rpc/legacyrpc"
-	"github.com/wbcoin/wbcwallet/rpc/rpcserver"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/loader"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/legacyrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/rpc/rpcserver"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/certgen"
 
 	"google.golang.org/grpc"

@@ -9,9 +9,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/wbcoin/wbcwallet/apperrors"
-	"github.com/wbcoin/wbcwallet/wallet/udb"
-	"github.com/wbcoin/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/apperrors"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/blockchain/stake"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"

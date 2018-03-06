@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbcoin/wbcwallet/walletdb"
-	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb/bdb"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"

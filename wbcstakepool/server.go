@@ -11,9 +11,9 @@ import (
 
 	"github.com/gorilla/context"
 
-	"github.com/wbcoin/wbcstakepool/controllers"
-	"github.com/wbcoin/wbcstakepool/stakepooldclient"
-	"github.com/wbcoin/wbcstakepool/system"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/controllers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/stakepooldclient"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/system"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 
 	"github.com/zenazn/goji/graceful"

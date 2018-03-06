@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wbcoin/wbcstakepool/models"
-	"github.com/wbcoin/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/models"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"

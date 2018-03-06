@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wbcoin/wbcwallet/walletdb"
-	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb/bdb"
 )
 
 // dbType is the database type name for this driver.

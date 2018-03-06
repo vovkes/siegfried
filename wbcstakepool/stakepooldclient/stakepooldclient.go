@@ -6,8 +6,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/stakepoolrpc"
-	"github.com/wbcoin/wbcstakepool/models"
+	pb "bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/rpc/stakepoolrpc"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/models"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainhash"
 	"golang.org/x/net/context"
 )

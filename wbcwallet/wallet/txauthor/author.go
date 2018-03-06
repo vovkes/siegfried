@@ -8,15 +8,15 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/wbcoin/wbcwallet/wallet/txrules"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txrules"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg/chainec"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
-	h "github.com/wbcoin/wbcwallet/internal/helpers"
-	"github.com/wbcoin/wbcwallet/wallet/internal/txsizes"
+	h "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/helpers"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/internal/txsizes"
 )
 
 const (

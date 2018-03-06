@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wbcoin/wbcwallet/internal/rpchelp"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/rpchelp"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrjson"
 )
 

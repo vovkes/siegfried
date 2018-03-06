@@ -7,7 +7,7 @@ package txsizes
 import (
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
-	h "github.com/wbcoin/wbcwallet/internal/helpers"
+	h "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

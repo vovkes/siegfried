@@ -7,7 +7,7 @@ package txrules
 import (
 	"errors"
 
-	h "github.com/wbcoin/wbcwallet/internal/helpers"
+	h "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/helpers"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/txscript"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"

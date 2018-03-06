@@ -10,8 +10,8 @@ import (
 
 	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/rpcserver"
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/userdata"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/rpc/rpcserver"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/userdata"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

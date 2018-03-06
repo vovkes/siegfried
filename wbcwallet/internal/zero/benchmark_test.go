@@ -7,7 +7,7 @@ package zero_test
 import (
 	"testing"
 
-	. "github.com/wbcoin/wbcwallet/internal/zero"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/internal/zero"
 )
 
 var (

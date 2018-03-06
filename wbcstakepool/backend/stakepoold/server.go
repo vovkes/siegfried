@@ -28,10 +28,10 @@ import (
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/rpcclient"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/wire"
 
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/rpc/rpcserver"
-	"github.com/wbcoin/wbcstakepool/backend/stakepoold/userdata"
-	"github.com/wbcoin/wbcwallet/wallet/txrules"
-	"github.com/wbcoin/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/rpc/rpcserver"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcstakepool/backend/stakepoold/userdata"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txrules"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
 
 	_ "github.com/go-sql-driver/mysql"
 )

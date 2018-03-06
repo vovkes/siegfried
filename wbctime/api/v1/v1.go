@@ -6,7 +6,7 @@ package v1
 import (
 	"regexp"
 
-	"github.com/wbcoin/wbctime/merkle"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbctime/merkle"
 )
 
 // XXX add a clamp to all batches

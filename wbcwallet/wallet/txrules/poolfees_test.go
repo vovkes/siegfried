@@ -3,7 +3,7 @@ package txrules_test
 import (
 	"testing"
 
-	. "github.com/wbcoin/wbcwallet/wallet/txrules"
+	. "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/txrules"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/dcrutil"
 )

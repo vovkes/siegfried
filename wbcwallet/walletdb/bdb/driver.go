@@ -7,7 +7,7 @@ package bdb
 import (
 	"fmt"
 
-	"github.com/wbcoin/wbcwallet/walletdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
 )
 
 const (

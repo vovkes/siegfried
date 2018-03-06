@@ -14,11 +14,11 @@ import (
 	"os"
 
 	"bitbucket.org/siegfriedvmblockchain/siegfried/wbc/chaincfg"
-	"github.com/wbcoin/wbcutil/hdkeychain"
-	"github.com/wbcoin/wbcwallet/wallet/udb"
-	"github.com/wbcoin/wbcwallet/walletdb"
-	_ "github.com/wbcoin/wbcwallet/walletdb/bdb"
-	"github.com/wbcoin/wbcwallet/walletseed"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcutil/hdkeychain"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/wallet/udb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb"
+	_ "bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletdb/bdb"
+	"bitbucket.org/siegfriedvmblockchain/siegfried/wbcwallet/walletseed"
 )
 
 const dbname = "v3.db"
